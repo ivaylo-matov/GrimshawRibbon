@@ -41,7 +41,7 @@ namespace GrimshawRibbon
 
         public Result OnShutdown(UIControlledApplication application)
         {
-            // do nothing
+            // do nothing just a simple return
             return Result.Succeeded;
         }
 
