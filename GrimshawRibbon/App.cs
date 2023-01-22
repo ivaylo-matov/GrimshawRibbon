@@ -30,9 +30,10 @@ namespace GrimshawRibbon
             // create push buttons for PurgeCADImport
             PulldownButtonData pbg1Data = new PulldownButtonData("DropdownGrouop1", "Purge Pluss");
             PulldownButton pbg1 = ribbonPanel.AddItem(pbg1Data) as PulldownButton;
+            pbg1.ToolTip = "Collection of tools to purge various elements that cannot be purged by the OOTB purge tool.";
 
-            //BitmapImage pbg1Image = new BitmapImage(new Uri("pack://application:,,,/GrimshawRibbon;component/Resources/PurgePlusPushdown.png"));
-            //pbg1.Image = pbg1Image;
+            BitmapImage pbg0Image = new BitmapImage(new Uri("pack://application:,,,/GrimshawRibbon;component/Resources/PurgePlusPushutton.png"));
+            pbg1.LargeImage = pbg0Image;
 
 
             PushButtonData b1Data = new PushButtonData("cmdPurgeCADImport1", "Purge CAD Imports1", thisAssemblyPath, "Kipple.PurgeCADImports");
