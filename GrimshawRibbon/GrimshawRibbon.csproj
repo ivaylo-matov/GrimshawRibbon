@@ -70,6 +70,8 @@
     <Content Include="Resources\PurgePlus3.png" />
     <Content Include="Resources\PurgePlus4.png" />
     <Content Include="Resources\PurgePlusPushdown.png" />
+    <Content Include="RVT\RevitAPI.dll" />
+    <Content Include="RVT\RevitAPIUI.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
