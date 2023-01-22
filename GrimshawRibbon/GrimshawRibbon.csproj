@@ -57,9 +57,6 @@
     <Compile Include="PurgeCADImports.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\totalLength.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="GrimshawRibbon.addin">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
@@ -68,7 +65,11 @@
     <Folder Include="CurveTotalLength\" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Resources\PurgePlus.png" />
+    <Content Include="Resources\PurgePlus1.png" />
+    <Content Include="Resources\PurgePlus2.png" />
+    <Content Include="Resources\PurgePlus3.png" />
+    <Content Include="Resources\PurgePlus4.png" />
+    <Content Include="Resources\PurgePlusPushdown.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

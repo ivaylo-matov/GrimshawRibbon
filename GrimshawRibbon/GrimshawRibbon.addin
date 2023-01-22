@@ -5,7 +5,7 @@
 		<Assembly>GrimshawRibbon.dll</Assembly>
 		<AddInId>3B88B577-97AD-405C-8E68-DA4723B20A9C</AddInId>
 		<FullClassName>GrimshawRibbon.App</FullClassName>
-		<VendorId>Konrad K Sobon</VendorId>
-		<VendorDescription>archi-lab http://www.archi-lab.net</VendorDescription>
+		<VendorId>Ivaylo Petrov</VendorId>
+		<VendorDescription>ivaylo.petrov@acgarchitects.co.uk</VendorDescription>
 	</AddIn>
 </RevitAddIns>
