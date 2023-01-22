@@ -8,6 +8,7 @@ using System.Reflection;
 using Autodesk.Revit.DB;
 using Autodesk.Revit.UI;
 using System.Windows.Media.Imaging;
+using System.IO;
 
 namespace GrimshawRibbon
 {
@@ -39,6 +40,7 @@ namespace GrimshawRibbon
             pb1.ToolTip = "This is tool 1.";
             BitmapImage pb1Image = new BitmapImage(new Uri("pack://application:,,,/GrimshawRibbon;component/Resources/PurgePlus1.png"));
             pb1.LargeImage = pb1Image;
+           
 
             PushButtonData b2Data = new PushButtonData("cmdPurgeCADImport2", "Purge CAD Imports2", thisAssemblyPath, "Kipple.PurgeCADImports");
             PushButton pb2 = pbg1.AddPushButton(b2Data) as PushButton;

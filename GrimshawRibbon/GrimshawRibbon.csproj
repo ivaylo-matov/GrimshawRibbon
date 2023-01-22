@@ -65,13 +65,14 @@
     <Folder Include="CurveTotalLength\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Resources\PurgePlus1.png" />
-    <Content Include="Resources\PurgePlus2.png" />
-    <Content Include="Resources\PurgePlus3.png" />
-    <Content Include="Resources\PurgePlus4.png" />
-    <Content Include="Resources\PurgePlusPushdown.png" />
-    <Content Include="RVT\RevitAPI.dll" />
-    <Content Include="RVT\RevitAPIUI.dll" />
+    <Content Include="PurgePlus1.png" />
+    <Resource Include="Resources\PurgePlus1.png" />
+    <Resource Include="Resources\PurgePlus2.png" />
+    <Resource Include="Resources\PurgePlus3.png" />
+    <Resource Include="Resources\PurgePlus4.png" />
+    <Resource Include="Resources\PurgePlusPushdown.png" />
+    <None Include="RVT\RevitAPI.dll" />
+    <None Include="RVT\RevitAPIUI.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
