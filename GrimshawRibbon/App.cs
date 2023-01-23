@@ -10,7 +10,7 @@ using Autodesk.Revit.UI;
 using System.Windows.Media.Imaging;
 using System.IO;
 
-namespace GrimshawRibbon
+namespace KippleRibbon
 {
     class App : IExternalApplication
     {
@@ -18,7 +18,7 @@ namespace GrimshawRibbon
         static void AddRibbonPanel(UIControlledApplication application)
         {
             // Create a custom ribbon tab
-            string tabName = "ACG Tools_C";
+            string tabName = "Kipple_WIP";
             application.CreateRibbonTab(tabName);
 
             // Add a new ribbon panel
@@ -33,16 +33,14 @@ namespace GrimshawRibbon
             pbg1.ToolTip = "Collection of tools to purge various elements that cannot be purged by the OOTB purge tool.";
 
             // create image for all icons
-            BitmapImage purgeIcon = new BitmapImage(new Uri("pack://application:,,,/GrimshawRibbon;component/Resources/PurgePlusPushdown.png"));
+            BitmapImage purgeIcon = new BitmapImage(new Uri("pack://application:,,,/KippleRibbon;component/Resources/PurgePlus.png"));
             pbg1.LargeImage = purgeIcon;
 
-            // create the push buttons
+            // create the push buttons below
             PushButtonData b1Data = new PushButtonData("cmdPurgeCADImport1", "Purge CAD Imports1", thisAssemblyPath, "Kipple.PurgeCADImports");
             PushButton pb1 = pbg1.AddPushButton(b1Data) as PushButton;
             pb1.ToolTip = "This is tool 1.";
             pb1.LargeImage = purgeIcon;
-
-
 
             PushButtonData b2Data = new PushButtonData("cmdPurgeCADImport2", "Purge CAD Imports2", thisAssemblyPath, "Kipple.PurgeCADImports");
             PushButton pb2 = pbg1.AddPushButton(b2Data) as PushButton;
